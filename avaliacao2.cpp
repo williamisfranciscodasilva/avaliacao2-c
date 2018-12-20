@@ -16,9 +16,11 @@ main()
 	prova3 = (prova3 * 5) /10;
 	media = prova1 + prova2 + prova3;
 	
-	if (media >= 6)
+	if (media >= 7)
 	    printf("Parabens voce foi APROVADO com media: %f",media);
+	else if (media >= 4)
+	    printf("Voce esta em RECUPERACAO com media: %f",media);
 	else
-	    printf("REPROVADO com media: %f",media);
+	printf("REPROVADO com media: %f",media);
 	getch();
 }
